@@ -5,6 +5,9 @@
 .font-family-work{
     font-family: 'Work Sans', sans-serif;
 }
+.font-family-georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .letter-spacing{
     letter-spacing: .4rem;
 }
@@ -12,12 +15,20 @@
     font-size: .8rem;
     font-weight: 800;
 }
+.nav-bar-relative{
+    position: relative;
+    
+}
 
+.bg-nav-active{
+    position: absolute;
+    top: 0.5rem;
+    right: 4rem;
+}
 
 
 /*Header*/
 .header-img{
-    background-color: rgba(12, 12, 12, 0.6);
     background-image: url(img/photo-header-big.jpg);
     background-repeat: no-repeat;
     margin:0 auto;
@@ -33,7 +44,7 @@
 }
  .navbar-toggler{
     border: none;
-    outline: none;
+    outline: none !important;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -44,7 +55,28 @@
     margin-top: 30vh;
 }
 
+/*Media Queries*/
 
+@media screen and (max-height : 690px){
 
+    .header-text{
+        margin-top:20vh;
+
+    }
+    .down{
+    margin-top: 20vh;
+    }
+}
+
+@media screen and (max-height : 400px){
+
+    .header-text{
+        margin-top:10vh;
+
+    }
+    .down{
+    margin-top: 10vh;
+    }
+}
 
 

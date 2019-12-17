@@ -18,14 +18,15 @@
     <!---->
     <header>
         <div class="container-fluid header-img">
-            <div class="container ">
+            <div class="container">
                 <div class="row pt-4">
                     <div class="col">
                         <img src="img/logo.png" alt="Logo Snow">
                     </div>
                     <div class="col">
                         <div class="pos-f-t ">
-                            <nav class="navbar navbar-dark d-flex justify-content-end ">
+                            <nav class="navbar navbar-dark d-flex justify-content-end nav-bar-relative">
+                                <!--Hamburger-->
                                 <button class="navbar-toggler " type="button" data-toggle="collapse"
                                     data-target="#navbarToggleExternalContent"
                                     aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -33,7 +34,8 @@
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                             </nav>
-                            <div class="collapse" id="navbarToggleExternalContent">
+                            <!--Fond navigation au click-->
+                            <div class="collapse bg-nav-active" id="navbarToggleExternalContent">
                                 <div class="bg-dark p-4">
                                     <ul class="list-group list-group-flush list-unstyled" style="text-align:center;">
                                         <li><a href="#"
@@ -54,9 +56,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row text-white text-center mt-auto ">
+                <div class="row text-white text-center">
                     <h3 class="w-100 font-family-work header-text text-uppercase size-branding letter-spacing">New branding agency</h3>
-                    <h1 class="w-100 font-family-playfair font-weight-bolder">We are about to change the way</h1>
+                    <h1 class="w-100 font-family-playfair font-weight-bold">We are about to change the way</h1>
                     <h2 class="w-100 font-family-playfair font-italic">you publish on the web</h2>
                 </div>
                 <div class="row">
@@ -75,9 +77,18 @@
         </div>
     </header>
 
-    <div class="container-fluid" style="height:500px;">
+    <div class="container-fluid" >
         <div class="container">
-            <div class="row">test</div>
+            <div class="row mt-5 mb-5">
+                <h2 class="font-family-playfair text-capitalize text-bold text-center mx-auto font-family-playfair font-weight-bold w-100 mt-5 mb-5">About our agency</h2>
+                <div class="w-100">
+                    <p class="font-family-work mx-auto w-75 text-justify text-center mb-5 text-black-50">We are a new design studio based in USA. We have over 20 years of combined experience, and know 
+                        a thing or two about designing websites and mobile apps. Clever use of technology 
+                        and lean processes enable us to work faster and smarter.
+                        </p>
+                </div>
+                    <img src="img/signature.png" class="mx-auto text-justify" />
+            </div>
         </div>
     </div>
     <div class="container-fluid">
