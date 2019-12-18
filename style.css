@@ -74,9 +74,8 @@
 p{
     margin-bottom: 0 !important; 
     display: block;
-
-
 }
+
 /*Media Queries*/
 
 @media screen and (max-height : 690px){
