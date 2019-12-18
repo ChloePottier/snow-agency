@@ -1,3 +1,4 @@
+
 /*Fonts : family, size*/
 .font-family-playfair{
     font-family: 'Playfair Display', serif;
@@ -25,7 +26,9 @@
     top: 0.5rem;
     right: 4rem;
 }
-
+.bg-grey-light{
+    background-color: #f6f6f6;
+}
 
 /*Header*/
 .header-img{
