@@ -32,7 +32,6 @@
     background-image: url(img/photo-header-big.jpg);
     background-repeat: no-repeat;
     margin:0 auto;
-    height: 100vh;
 }
 .header-text{
     margin-top:35vh;
@@ -55,6 +54,29 @@
     margin-top: 30vh;
 }
 
+
+
+/*section numbers*/
+.section-numbers{
+    background-image: url(img/pattern-bg.png);
+}
+
+.white-space-pre{
+    white-space: pre;
+}
+.line-height-1{
+    line-height: 1.3rem;
+}
+
+.font-size-14{
+    font-size: .7rem;
+}
+p{
+    margin-bottom: 0 !important; 
+    display: block;
+
+
+}
 /*Media Queries*/
 
 @media screen and (max-height : 690px){
@@ -78,5 +100,6 @@
     margin-top: 10vh;
     }
 }
+
 
 
