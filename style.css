@@ -22,6 +22,7 @@
     top: 0.5rem;
     right: 4rem;
 }
+
 .bg-grey-light{
     background-color: #f6f6f6;
 }
@@ -90,11 +91,13 @@ p{
 .carousel-indicators li{
     width: 6px;
     height: 6px;
-
+    background-color: #d1d1d1;
 }
+
 .carousel-indicators .active{
     width: 10px;
     height: 10px;
+    background-color: #171717;
 }
 .gallery-01{
     background-image: url(img/gallery-04.jpg);
@@ -168,7 +171,7 @@ p{
 .logo-partenaires{
     padding: 60px 0;
 }
-.section-logo-partenaires{
+.logo-partenaires{
     background-color: white;
 }
 
