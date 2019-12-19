@@ -1,0 +1,61 @@
+.text-primary{
+    color: #0f0f0f!important;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;}
+
+.text-primary-a{
+    color: #f7f1f1!important;
+    font-family: 'Playfair Display', serif; }
+
+.text-primary-b{
+    color: rgb(143, 143, 143);
+    font-family: 'Playfair Display', serif; }
+
+.btn-primary{
+    color: white;
+    background-color: black;
+    border-color: black;}
+
+.bb{
+      
+    padding: 60px 0;
+}
+
+
+.aa{
+    padding: 110px 0;
+    background-color: rgb(246, 246, 246);}
+
+.height-c{
+    height: 410px;
+    background-color: rgb(12, 5, 5);}
+ section{
+     padding: 60px 0;
+    /* background-image: url("psd3/Home_02.jpg");*/
+ }   
+
+.border-a{
+    height: 70px;
+    text-align: center;
+    background-color: rgb(12, 5, 5)
+}
+
+
+figcaption {
+    position: absolute ; 
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7)  ;
+    left: 5px;
+    right: 200px;
+    bottom: 5px;
+    color: white;
+    font-size: 12px; }
+
+figure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;}
+
+

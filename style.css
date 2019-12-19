@@ -16,10 +16,6 @@
     font-size: .8rem;
     font-weight: 800;
 }
-.nav-bar-relative{
-    position: relative;
-    
-}
 
 .bg-nav-active{
     position: absolute;
@@ -31,6 +27,13 @@
 }
 
 /*Header*/
+.logo{
+    z-index: 10;
+}
+.bg-dark{
+    height:100vh;
+    width: auto;
+}
 .header-img{
     background-image: url(img/photo-header-big.jpg);
     background-repeat: no-repeat;
@@ -47,6 +50,7 @@
  .navbar-toggler{
     border: none;
     outline: none !important;
+    z-index: 10;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -54,7 +58,8 @@
 }
 
 .down{
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
+    margin-top: 5rem;
 }
 
 
@@ -91,6 +96,136 @@ p{
     width: 10px;
     height: 10px;
 }
+.gallery-01{
+    background-image: url(img/gallery-04.jpg);
+    height: 250px;
+}
+.gallery-02{
+    background-image: url(img/gallery-07.jpg);
+    height: 250px;
+}
+.gallery-03{
+    background-image: url(img/gallery-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 530px;
+}
+.gallery-04{
+    background-image: url(img/gallery-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 530px;
+}
+.gallery-05{
+    background-image: url(img/gallery-08.jpg);
+    height: 250px;
+}
+.gallery-06{
+    background-image: url(img/gallery-06.jpg);
+    height: 250px;
+}
+.gallery-07{
+    background-image: url(img/gallery-09.jpg);
+    height: 250px;
+}
+
+.gallery-08{
+    background-image: url(img/gallery-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    height: 530px;
+}
+.gallery-09{
+    background-image: url(img/gallery-07.jpg);
+    height: 250px;
+}
+.gallery-01:hover, .gallery-02:hover, .gallery-03:hover, .gallery-04:hover, .gallery-05:hover, .gallery-06:hover, .gallery-07:hover, .gallery-08:hover, .gallery-09:hover{
+    background-image: url(img/Vinyl-record.jpg);
+}
+
+/*CSS de Franck*/
+.text-primary{
+    color: #0f0f0f!important;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;}
+
+.text-primary-a{
+    color: #f7f1f1!important;
+    font-family: 'Playfair Display', serif; }
+
+.text-primary-b{
+    color: rgb(143, 143, 143);
+    font-family: 'Playfair Display', serif; }
+
+.btn-primary{
+    color: white;
+    background-color: black;
+    border-color: black;}
+
+.logo-partenaires{
+    padding: 60px 0;
+}
+.section-logo-partenaires{
+    background-color: white;
+}
+
+.aa{
+    padding: 110px 0;
+    background-color: rgb(246, 246, 246);}
+
+.height-c{
+    height: 410px;
+    background-color: rgb(12, 5, 5);}
+
+.border-a{
+    height: 70px;
+    text-align: center;
+    background-color: rgb(12, 5, 5)
+}
+
+
+figcaption {
+    position: absolute ; 
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7)  ;
+    left: 5px;
+    right: 200px;
+    bottom: 5px;
+    color: white;
+    font-size: 12px; }
+
+figure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1.5rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Media Queries*/
 
