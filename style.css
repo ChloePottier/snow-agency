@@ -60,7 +60,7 @@
 
 
 /*section numbers*/
-.section-numbers{
+.section-numbers, .section-hopkins{
     background-image: url(img/pattern-bg.png);
 }
 
@@ -73,6 +73,9 @@
 
 .font-size-14{
     font-size: .7rem;
+}
+.font-size-24{
+    font-size: 1.2rem;
 }
 p{
     margin-bottom: 0 !important; 
