@@ -90,7 +90,6 @@ p{
 .carousel-indicators .active{
     width: 10px;
     height: 10px;
-    
 }
 
 /*Media Queries*/
@@ -99,7 +98,6 @@ p{
 
     .header-text{
         margin-top:20vh;
-
     }
     .down{
     margin-top: 20vh;
@@ -110,10 +108,20 @@ p{
 
     .header-text{
         margin-top:10vh;
-
     }
     .down{
     margin-top: 10vh;
+    }
+}
+@media screen and (max-width:992px){
+
+}
+@media screen and (max-width:768px){
+    h1{
+        font-size: 2rem !important;
+    }
+    .sub-title-h2{
+        font-size: 1.8rem !important;
     }
 }
 
