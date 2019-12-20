@@ -21,6 +21,8 @@
     position: absolute;
     top: 0.5rem;
     right: 4rem;
+    width:100%;
+    
 }
 
 .bg-grey-light{
@@ -63,8 +65,6 @@
     margin-top: 5rem;
 }
 
-
-
 /*section numbers*/
 .section-numbers, .section-hopkins{
     background-image: url(img/pattern-bg.png);
@@ -102,6 +102,9 @@ p{
     width: 10px;
     height: 10px;
     background-color: #171717;
+}
+figure{
+    overflow: hidden;
 }
 .gallery-01{
     background-image: url(img/gallery-04.jpg);
@@ -151,6 +154,7 @@ p{
 }
 .gallery-01:hover, .gallery-02:hover, .gallery-03:hover, .gallery-04:hover, .gallery-05:hover, .gallery-06:hover, .gallery-07:hover, .gallery-08:hover, .gallery-09:hover{
     background-image: url(img/Vinyl-record.jpg);
+    background-position: center;
 }
 
 /*CSS de Franck*/
@@ -193,14 +197,6 @@ p{
     background-color: #0c0c0c;
 }
 
-/* .form:valid , textarea:valid{
-    border: solid 2px green;
-}
-
-.form-group:focus:invalid, textarea:focus:invalid{
-    border: solid 2px red;
-} */
-
 figcaption {
     position: absolute ; 
     padding: 5px 15px 5px 15px;
@@ -217,7 +213,14 @@ figure {
     margin: 0;
     margin-bottom: 1.5rem;
 }
-
+h4{
+   font-family: 'Playfair Display', serif;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.card-body{
+    height: 17rem;
+}
 
 
 
@@ -269,10 +272,23 @@ figure {
     h1{
         font-size: 2rem !important;
     }
+    h4{
+        font-size: 1.3rem;
+    }
     .sub-title-h2{
         font-size: 1.8rem !important;
     }
+    .card-text,p {
+        font-size: .8rem;
+    }
 }
+@media screen and (max-width:576px){
+   
+    .card-text{
+        font-size: .7rem;
+    }
+}
+
 
 
 
