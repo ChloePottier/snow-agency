@@ -26,15 +26,15 @@
 .bg-grey-light{
     background-color: #f6f6f6;
 }
+.color-grey-light{
+    color: #e9e9e9;
+}
 
 /*Header*/
 .logo{
     z-index: 10;
 }
-.bg-dark{
-    height:100vh;
-    width: auto;
-}
+
 .header-img{
     background-image: url(img/photo-header-big.jpg);
     background-repeat: no-repeat;
@@ -83,6 +83,10 @@
 .font-size-24{
     font-size: 1.2rem;
 }
+.font-size-contact{
+    font-size: .9rem;
+}
+
 p{
     margin-bottom: 0 !important; 
     display: block;
@@ -153,7 +157,7 @@ p{
 .text-primary{
     color: #0f0f0f!important;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;}
+    }
 
 .text-primary-a{
     color: #f7f1f1!important;
@@ -165,8 +169,13 @@ p{
 
 .btn-primary{
     color: white;
-    background-color: black;
-    border-color: black;}
+    background-color: #252525;
+    border-color: #252525;
+}
+.btn-primary:hover{
+    background-color: #000;
+    border-color: #000;
+}
 
 .logo-partenaires{
     padding: 60px 0;
@@ -179,24 +188,25 @@ p{
     padding: 110px 0;
     background-color: rgb(246, 246, 246);}
 
-.height-c{
-    height: 410px;
-    background-color: rgb(12, 5, 5);}
 
-.border-a{
-    height: 70px;
-    text-align: center;
-    background-color: rgb(12, 5, 5)
+.bg-black{
+    background-color: #0c0c0c;
 }
 
+/* .form:valid , textarea:valid{
+    border: solid 2px green;
+}
+
+.form-group:focus:invalid, textarea:focus:invalid{
+    border: solid 2px red;
+} */
 
 figcaption {
     position: absolute ; 
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7)  ;
     left: 5px;
-    right: 200px;
     bottom: 5px;
     color: white;
     font-size: 12px; }
