@@ -36,7 +36,7 @@
                             </nav>
                             <!--Fond navigation au click-->
                             <div class="collapse bg-nav-active" id="navbarToggleExternalContent">
-                                <div class="bg-dark p-4">
+                                <div class="bg-dark p-5 mr-3">
                                     <ul class="list-group list-group-flush list-unstyled" style="text-align:center;">
                                         <li><a href="#about"
                                                 class="text-white list-group-item bg-dark text-decoration-none">About</a>
@@ -252,7 +252,20 @@
     <!-- Latest Blog -->
     <section class="latest-blog">
         <!--CAROUSEL-->
+
         <div class="container-fluid ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 mt-5 ">
+                        <h2 class="text-primary text-center font-family-playfair font-weight-bold"> Latest Blog</h2>
+                        <p class=" font-family-work mx-auto w-75 text-justify text-center mb-5 text-secondary ">donec orci sem et, pretium ac
+                            dolor
+                            et, faucibus faucibus mauris.Etiam,pellentesque faucibus.<br />
+                            Vestibulum gravida voluptat ipsum non ultrices.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <div class="row d-block py-5">
                     <div id="carouselExampleIndicators" class="carousel slide mx-auto" data-ride="carousel">
@@ -433,46 +446,42 @@
     <section class="dd">
         <div class="container-fluid border-top">
             <div class="container  ">
-                <div class="row ">
-
+                <div class="row font-family-work text-justify  mb-5 text-secondary">
                     <div class=" col-6 my-5">
-                        <h2 class="text-primary">Contact Info: </h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam similique itaque dolorum ad
+                        <h2 class="text-primary font-family-playfair font-weight-bold mb-4">Contact Info: </h2>
+                        <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam similique itaque dolorum ad
                             error inventore, quos odio ea dignissimos est possimus tempore accusantium suscipit dolore
                             natus. Repudiandae optio obcaecati eos!</p>
-                        <p><span class="text-primary">Adress</span>: 10111 Santa Monica Boulevard,LA </p>
-                        <p><span class="text-primary">Phone</span>: +44 987 065 908</p>
-                        <p><span class="text-primary">Email</span>: @Example.com</p>
+                        <p class="mb-3"><span class="text-primary">Adress</span>: 10111 Santa Monica Boulevard,LA </p class="mb-3">
+                        <p class="mb-3"><span class="text-primary">Phone</span>: +44 987 065 908</p>
+                        <p class="mb-3"><span class="text-primary">Email</span>: @Example.com</p>
                         <p><span class="text-primary">Fax</span>: +44 987 065 909</p>
                     </div>
-
-
                     <div class=" col-6 my-5 ">
-
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputYourName"></label>
-                                    <input type="Name" class="form-control" id="inputyourName" placeholder="Your Name">
+                                    <input type="Name" class="form-control rounded-0 border-0" id="inputyourName" placeholder="Your Name *" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputYourEmail"></label>
-                                    <input type="email" class="form-control" id="inputYourEmail"
-                                        placeholder="Your Email">
+                                    <input type="email" class="form-control rounded-0 border-0" id="inputYourEmail *" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
+                                        placeholder="Your Email *">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputYourTitle"></label>
-                                <input type="text" class="form-control" id="inputYourTitle" placeholder="Your Title">
+                                <input type="text" class="form-control rounded-0 border-0" id="inputYourTitle" placeholder="Your Title *" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputYourComment"></label>
-                                <input type="text" class="form-control" id="inputyourComment"
-                                    placeholder="Your Comment">
+                                <textarea type="text" class="form-control rounded-0 border-0" id="inputyourComment *" required
+                                    placeholder="Your Comment *"></textarea>
                             </div>
 
 
-                            <button type="send message" class="btn btn-primary">SEND MESSAGE</button>
+                            <button type="send message" class="btn btn-primary rounded-0 font-size-14 font-family-work font-weight-bold py-3 px-3">SEND MESSAGE</button>
                         </form>
 
 
@@ -483,7 +492,7 @@
     </section>
     <!--                                                                 footer                                                              -->
     <footer class="ee">
-        <div class="container-fluid height-c font-size-contact color-grey-light font-family-playfair">
+        <div class="container-fluid height-c font-size-contact color-grey-light font-family-playfair bg-black">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-4 text-primary-a my-5 ">
@@ -539,11 +548,11 @@
         </div>
 
 
-        <div class="container-fluid border-top bg-black text-center h-auto">
+        <div class="container-fluid border-top border-secondary bg-black text-center h-auto">
             <div class="container">
                 <div class="row">
                     <div class=" col-12 text-primary-a my-4">
-                        <p class="font-family-work"> © 2019. Created by Groupe 1 </p>
+                        <p class="font-family-work font-size-14"> © 2019. Created by Groupe 1 </p>
                     </div>
                 </div>
             </div>
