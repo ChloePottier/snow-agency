@@ -123,6 +123,10 @@ p{
 }
 
 /* images galery, hover */
+.gallery-01, .gallery-02, .gallery-03, .gallery-04, .gallery-05, .gallery-06, .gallery-07, .gallery-08, .gallery-09{
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .gallery-01{
     background-image: url(img/gallery-04.jpg);
     height: 250px;
@@ -133,16 +137,11 @@ p{
 }
 .gallery-03{
     background-image: url(img/gallery-01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
+
     height: 530px;
 }
 .gallery-04{
     background-image: url(img/gallery-02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
     height: 530px;
 }
 .gallery-05{
@@ -160,17 +159,15 @@ p{
 
 .gallery-08{
     background-image: url(img/gallery-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
     height: 530px;
 }
 .gallery-09{
-    background-image: url(img/gallery-07.jpg);
+    background-image: url(img/gallery-05.jpg);
     height: 250px;
 }
 .gallery-01:hover, .gallery-02:hover, .gallery-03:hover, .gallery-04:hover, .gallery-05:hover, .gallery-06:hover, .gallery-07:hover, .gallery-08:hover, .gallery-09:hover{
     background-image: url(img/Vinyl-record.jpg);
+    background-color: white;
     background-position: center;
 }
 
@@ -190,6 +187,14 @@ p{
     /* top: 11.3rem; */
     bottom: 18rem;
     background-color: #252525;
+}
+.card-img-top{
+    height:240px;
+}
+.card-img-1{
+    background-image: url(img/snow.jpg);
+    background-repeat: no-repeat;
+    
 }
 
 
@@ -253,10 +258,44 @@ p{
     }
 }
 @media screen and (max-width:576px){
-   
+    .gallery-01, .gallery-02, .gallery-03, .gallery-04, .gallery-05, .gallery-06, .gallery-07, .gallery-08, .gallery-09{
+        width:100%;
+        height:250px;
+    }
+    .gallery-01:hover, .gallery-02:hover, .gallery-03:hover, .gallery-04:hover, .gallery-05:hover, .gallery-06:hover, .gallery-07:hover, .gallery-08:hover, .gallery-09:hover{
+        width:100%;
+        height:250px;
+    }
+    .gallery-01{
+        background-image: url(img/gallery-04-sm.jpg);
+    }
+    .gallery-02{
+        background-image: url(img/gallery-07-sm.jpg);
+        }
+    .gallery-03{
+        background-image: url(img/gallery-01-sm.jpg);
+    }
+    .gallery-04{
+        background-image: url(img/gallery-02-sm.jpg);
+    }
+    .gallery-05{
+        background-image: url(img/gallery-08-sm.jpg);
+    }
+    .gallery-06{
+        background-image: url(img/gallery-06-sm.jpg);
+    }
+
+    .card-body{
+        height: 10rem;
+    }
+    .card-img-top{
+        width: 480px;
+        height:260px;
+    }
     .card-text{
         font-size: .7rem;
     }
+
 }
 
 
