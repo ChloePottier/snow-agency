@@ -102,12 +102,21 @@ p{
 }
 
 /*carousel indicators*/
-.carousel-indicators li{
+.section-hopkins .carousel-indicators li{
+    width: 6px;
+    height: 6px;
+}
+.section-hopkins .carousel-indicators .active{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+.latest-blog .carousel-indicators li{
     width: 6px;
     height: 6px;
     background-color: #d1d1d1;
 }
-.carousel-indicators .active{
+.latest-blog .carousel-indicators .active{
     width: 10px;
     height: 10px;
     background-color: #171717;
@@ -178,7 +187,8 @@ p{
     height: 17rem;
 }
 .img-card h6{
-    top: 10rem;
+    /* top: 11.3rem; */
+    bottom: 18rem;
     background-color: #252525;
 }
 
