@@ -65,6 +65,10 @@ p{
 .color-grey-dark{
     color: #171717;
 }
+.col-3{
+    height:85px;
+    background-color: red;
+}
 
 /*Header*/
 .logo{
@@ -175,9 +179,7 @@ p{
 .logo-partenaires{
     padding: 60px 0;
 }
-.logo-partenaires{
-    background-color: white;
-}
+
 
 /* cards */
 .card-body{
@@ -194,16 +196,27 @@ p{
 .card-img-1{
     background-image: url(img/snow.jpg);
     background-repeat: no-repeat;
+}
+.card-img-2{
+    background-image: url(img/snow2.jpg);
+    background-repeat: no-repeat;
     
 }
+.card-img-3{
+    background-image: url(img/snow3.jpg);
+    background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
+/* Formulaire */
+.btn-black{
+    color: white;
+    background-color: #252525;
+    border-color: #252525;
+}
+.btn-black:hover{
+    background-color: #000;
+    border-color: #000;
+}
 
 
 
@@ -256,8 +269,37 @@ p{
     .card-text,p {
         font-size: .8rem;
     }
+    .card-body{
+        height: 10rem;
+    }
+    .card-img-top{
+        height:260px;
+    }
+    .card-img-1{
+        background-image: url(img/snow-sm.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .card-img-2{
+        background-image: url(img/snow2-sm.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .card-img-3{
+        background-image: url(img/snow3-sm.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .img-card h6{
+        /* top: 11.3rem; */
+        bottom: 10rem;
+        background-color: #252525;
+    }
 }
 @media screen and (max-width:576px){
+    h2{
+        font-size: 1.5rem;
+    }
     .gallery-01, .gallery-02, .gallery-03, .gallery-04, .gallery-05, .gallery-06, .gallery-07, .gallery-08, .gallery-09{
         width:100%;
         height:250px;
@@ -285,17 +327,17 @@ p{
         background-image: url(img/gallery-06-sm.jpg);
     }
 
-    .card-body{
-        height: 10rem;
+   
+    button{
+        width:100%;
     }
-    .card-img-top{
-        width: 480px;
-        height:260px;
+    .logo-partenaires{
+        padding: 10px 0;
     }
-    .card-text{
-        font-size: .7rem;
+    .w-75{
+        width:100% !important;
     }
-
+    
 }
 
 
