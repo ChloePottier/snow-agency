@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/93f58f1a43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/screen.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Snow agency</title>
 </head>
@@ -29,7 +30,8 @@
                         <img src="img/logo.png" alt="Logo Snow" class="logo">
                     </div>
                     <div class="col-6">
-                        <nav class="navbar navbar-brand navbar-dark d-flex justify-content-end position-relative">
+                        <!-- Menu bootstrap -->
+                        <!-- <nav class="navbar navbar-brand navbar-dark d-flex justify-content-end position-relative">
                             <button class="navbar-toggler d-flex justify-content-end " type="button"
                                 data-toggle="collapse" data-target="#navbarToggleExternalContent"
                                 aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -56,6 +58,27 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div> -->
+
+                        <!-- Menu https://www.cssscript.com/demo/minimal-responsive-dropdown-navigation-pure-css/ -->
+                        <div class="wrapper">
+                            <label class="toggle text-white justify-content-end d-flex" for="toggle">&#9776; <span>Menue</span></label>
+                            <input class="toggle" id="toggle" type="checkbox">
+                            <nav>
+                                <ul>
+                                    <li class="current"><a href="#">Home</a></li>
+                                    <li><a href="#">Arbeiten</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li class="has_children"><a href="#">Labor</a>
+                                        <ul>
+                                            <li><a href="#">Builder</a></li>
+                                            <li><a href="#">Snippets</a></li>
+                                            <li><a href="#">Scripts</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Kontakt</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
