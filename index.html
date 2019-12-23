@@ -26,57 +26,22 @@
             <div class="container">
                 <!--Logo, menu header-->
                 <div class="row pt-4">
-                    <div class="col-6">
+                    <div class="col-4 col-md-6">
                         <img src="img/logo.png" alt="Logo Snow" class="logo">
                     </div>
-                    <div class="col-6">
-                        <!-- Menu bootstrap -->
-                        <!-- <nav class="navbar navbar-brand navbar-dark d-flex justify-content-end position-relative">
-                            <button class="navbar-toggler d-flex justify-content-end " type="button"
-                                data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                                aria-controls="navbarToggleExternalContent" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                        </nav>
-
-                        <div class="collapse bg-nav-active" id="navbarToggleExternalContent">
-                            <div class="bg-dark">
-                                <ul class="list-group list-group-flush list-unstyled" style="text-align:center;">
-                                    <li><a href="#about"
-                                            class="text-white list-group-item bg-dark text-decoration-none">A propos</a>
-                                    </li>
-                                    <li><a href="#best-project"
-                                            class="text-white list-group-item bg-dark text-decoration-none">Nos
-                                            Meilleurs projets</a>
-                                    </li>
-                                    <li><a href="#"
-                                            class="text-white list-group-item bg-dark text-decoration-none">Blog</a>
-                                    </li>
-                                    <li><a href="#"
-                                            class="text-white list-group-item bg-dark text-decoration-none">Instagram</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> -->
-
+                    <div class="col-8 col-md-6">
                         <!-- Menu https://www.cssscript.com/demo/minimal-responsive-dropdown-navigation-pure-css/ -->
-                        <div class="wrapper">
-                            <label class="toggle text-white justify-content-end d-flex" for="toggle">&#9776; <span>Menue</span></label>
+                        <div class="wrapper justify-content-end d-flex">
+                            <label class="toggle text-white justify-content-end d-flex" for="toggle">&#9776;</label>
                             <input class="toggle" id="toggle" type="checkbox">
-                            <nav>
+                            <nav class="position-absolute mt-5 bg-black-op rounded">
                                 <ul>
-                                    <li class="current"><a href="#">Home</a></li>
-                                    <li><a href="#">Arbeiten</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li class="has_children"><a href="#">Labor</a>
-                                        <ul>
-                                            <li><a href="#">Builder</a></li>
-                                            <li><a href="#">Snippets</a></li>
-                                            <li><a href="#">Scripts</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Kontakt</a></li>
+                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li><a href="#about">A propos</a></li>
+                                    <li><a href="#best-project">Nos Meilleurs projets</a></li>
+                                    <li ><a href="#">Blog</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -86,10 +51,9 @@
                 <div class="text-white text-center">
                     <h3
                         class="sub-title-h3  w-100 font-family-work header-text text-uppercase size-branding letter-spacing">
-                        New
-                        branding agency</h3>
-                    <h1 class="w-100 font-family-playfair font-weight-bold">We are about to change the way</h1>
-                    <h2 class="sub-title-h2 w-100 font-family-playfair font-italic">you publish on the web</h2>
+                        Agence de photographie</h3>
+                    <h1 class="w-100 font-family-playfair font-weight-bold mt-2">Snow Agency</h1>
+                    <h2 class="sub-title-h2 w-100 font-family-playfair font-italic mt-2">Spécialiste dans les photos de Haute Montagne</h2>
                 </div>
                 <!--Fleche down #About us-->
                 <div class="row">
@@ -599,8 +563,7 @@
     </div>
 
     <!--formulaire de contact-->
-    <div class="contact-info">
-        <div class="container-fluid border-top">
+        <div class="container-fluid border-top" id="contact">
             <div class="container  ">
                 <div class="row font-family-work text-justify my-5">
                     <div class=" col-12 col-md-6 my-3 my-md-5 color-grey-medium">
@@ -619,16 +582,16 @@
                     <div class="col-12 col-md-6 my-3 my-md-5 ">
                         <form>
                             <div class="form-row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-12 col-md-6">
                                     <label for="inputYourName"></label>
                                     <input type="Name" class="form-control rounded-0 border-0" id="inputyourName"
                                         placeholder="Votre nom *" required>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-12 col-md-6">
                                     <label for="inputYourEmail"></label>
                                     <input type="email" class="form-control rounded-0 border-0" id="inputYourEmail *"
                                         required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
-                                        placeholder="Votre prénom *">
+                                        placeholder="Votre e-mail *">
                                 </div>
                             </div>
                             <div class="form-group">

@@ -48,6 +48,9 @@ p{
 .bg-black{
     background-color: #0c0c0c;
 }
+.bg-black-op{
+    background-color: rgba(12, 12, 12, 0);
+}
 .bg-grey-light{
     background-color: #f6f6f6;
 }
@@ -77,25 +80,6 @@ p{
 .header-text{
     margin-top:35vh;
 }
-/*NavBar*/
-/* .bg-nav-active{
-    position: absolute;
-    top: 2.5rem;
-    right: -2rem;
-    
-}
-.navbar{
-    width:auto;
-    padding: 0;
-}
- .navbar-toggler{
-    border: none;
-    outline: none !important;
-    z-index: 10;
-}
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-} */
 
 .down{
     margin-top: 5rem;
@@ -256,20 +240,23 @@ p{
     margin-top: 10vh;
     }
 }
+/* col-lg- */
 @media screen and (max-width:992px){
 
 }
+/* col-md- */
 @media screen and (max-width:768px){
-    h1{
-        font-size: 2rem !important;
-    }
-    h4{
-        font-size: 1.3rem;
+    
+    .bg-black-op{
+        background-color: rgba(12, 12, 12, 0.6);
     }
     .sub-title-h2{
         font-size: 1.8rem !important;
     }
-    .card-text,p {
+    p{
+        font-size: 1rem;
+    }
+    .card-text {
         font-size: .8rem;
     }
     .card-body{
@@ -299,9 +286,20 @@ p{
         background-color: #252525;
     }
 }
+/* col-sm- */
 @media screen and (max-width:576px){
+    h1{
+        font-size: 2rem !important;
+    }
     h2{
         font-size: 1.5rem;
+    }
+    
+    h4{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: .8rem;
     }
     .gallery-01, .gallery-02, .gallery-03, .gallery-04, .gallery-05, .gallery-06, .gallery-07, .gallery-08, .gallery-09{
         width:100%;
