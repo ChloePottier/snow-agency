@@ -1,8 +1,16 @@
 p{
     margin-bottom: 0 !important; 
     display: block;
+    font-size: 1.2rem;
 }
+
 /*Fonts : family, size*/
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
 .font-family-playfair{
     font-family: 'Playfair Display', serif;
 }
@@ -21,6 +29,7 @@ p{
 .font-size-24{
     font-size: 1.2rem;
 }
+
 .font-size-contact{
     font-size: .9rem;
 }
