@@ -44,12 +44,7 @@ p{
     line-height: 1.3rem;
 }
 /* colors */
-.bg-nav-active{
-    position: absolute;
-    top: 0.5rem;
-    right: 4rem;
-    width:100%;
-}
+
 .bg-black{
     background-color: #0c0c0c;
 }
@@ -83,6 +78,12 @@ p{
     margin-top:35vh;
 }
 /*NavBar*/
+.bg-nav-active{
+    position: absolute;
+    top: 2.5rem;
+    right: -2rem;
+    
+}
 .navbar{
     width:auto;
     padding: 0;
