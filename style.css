@@ -75,10 +75,18 @@ h2{
 .col-3{
     height:85px;
 }
-
+.mt-5rem{
+    margin-top: 5rem!important;
+}
 /*Header*/
 .logo{
     z-index: 10;
+}
+.toggle{
+    z-index: 100;
+}
+header{
+    overflow:hidden;
 }
 .header-img{
     background-image: url(img/photo-header-big.jpg);
@@ -89,7 +97,24 @@ h2{
 .header-text{
     margin-top:35vh;
 }
-
+nav{
+    width:100vh;
+    height:100vh;
+    box-sizing: inherit;
+    right: 0;
+    top:-30px;
+    z-index: 9;
+}
+nav li a {
+    margin: 0;
+    padding-right: 4rem;
+}
+::after, ::before{
+    box-sizing: inherit;
+}
+#Calque_1{
+    z-index:3;
+}
 .down{
     margin-top: 5rem;
     width: 50px;
@@ -254,8 +279,14 @@ h2{
 
 }
 /* col-md- */
-@media screen and (max-width:768px){
-    
+@media screen and (max-width:767px){
+    nav{
+        width:1000px;
+        height:1000px;
+        box-sizing: inherit;
+        right:-1.5rem;
+
+    }
     .bg-black-op{
         background-color: rgba(12, 12, 12, 0.6);
     }
