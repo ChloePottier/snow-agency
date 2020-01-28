@@ -29,13 +29,15 @@
                     <div class="col-4 col-md-6">
                         <img src="img/logo.png" alt="Logo Snow" class="logo">
                     </div>
-                    <div class="col-8 col-md-6">
-                        <!-- Menu https://www.cssscript.com/demo/minimal-responsive-dropdown-navigation-pure-css/ -->
-                        <div class="wrapper justify-content-end d-flex">
-                            <label class="toggle text-white justify-content-end d-flex p-0" for="toggle">&#9776;</label>
-                            <input class="toggle" id="toggle" type="checkbox">
-                            <nav class="position-absolute bg-black-op text-right">
-                                <ul class="mt-5rem">
+                    <div class="col-8 col-md-6 d-flex">
+                        
+                            <label class="burger" id="burger">
+                                <span>&nbsp;</span>
+                                <span>&nbsp;</span>
+                                <span>&nbsp;</span>
+                            </label>
+                            <nav class="position-absolute bg-black-op text-right display-none font-size-32" id="navigation">
+                                <ul class="mt-5rem list-unstyled">
                                     <li class="current"><a href="index.html">Home</a></li>
                                     <li><a href="#about">A propos</a></li>
                                     <li><a href="#best-project">Nos Meilleurs projets</a></li>
@@ -44,7 +46,7 @@
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </nav>
-                        </div>
+                        
                     </div>
                 </div>
                 <!--Texte header-->
@@ -712,6 +714,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+            <script>
+                let burger  = document.getElementById("burger");
+                let navigation = document.getElementById("navigation");
+                burger.addEventListener("click", function() {
+                    navigation.classList.toggle("display-flex");
+                })
+            </script>
 
 </body>
 
