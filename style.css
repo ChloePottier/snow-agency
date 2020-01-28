@@ -56,7 +56,7 @@ h1{
     background-color: #0c0c0c;
 }
 .bg-black-op{
-    background-color: rgba(12, 12, 12, 0);
+    background-color: rgba(12, 12, 12, 0.8);
 }
 .bg-grey-light{
     background-color: #f6f6f6;
@@ -95,11 +95,11 @@ h1{
    display: flex;flex-direction: column;
 }
 .burger span {
-    width: 40px;
+    width: 35px;
     background-color: #fff;
-    height: 5px;
+    height: 4px;
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 .burger span:last-child {
     margin-bottom:0px;
@@ -118,16 +118,17 @@ header{
     margin-top:35vh;
 }
 nav{
-    width:100vh;
-    height:100vh;
+    width:300vw;
+    height:200vh;
     box-sizing: inherit;
-    right: 0;
+    right: -300px;
+    padding-right: 15vw;
     top:-30px;
     z-index: 9;
 }
 nav li a {
     margin: 0;
-    padding-right: 4rem;
+    padding-right: 10rem;
     color: #fff;
     text-decoration: none;
 }
@@ -267,24 +268,8 @@ nav li:hover a {
     background-color: #000;
     border-color: #000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Media Queries*/
-
-@media screen and (max-height : 690px){
+/* @media screen and (max-height : 690px){
 
     .header-text{
         margin-top:20vh;
@@ -302,23 +287,16 @@ nav li:hover a {
     .down{
     margin-top: 10vh;
     }
-}
+} */
 /* col-lg- */
 @media screen and (max-width:992px){
-
+    nav {
+        right: -200px;
+    }
 }
 /* col-md- */
 @media screen and (max-width:767px){
-    nav{
-        width:1000px;
-        height:1000px;
-        box-sizing: inherit;
-        right:-1.5rem;
-
-    }
-    .bg-black-op{
-        background-color: rgba(12, 12, 12, 0.8);
-    }
+    
     .sub-title-h2{
         font-size: 1.8rem !important;
     }
@@ -360,10 +338,16 @@ nav li:hover a {
     h1{
         font-size: 2rem !important;
     }
+    .font-size-32{
+        font-size: 1.8rem;
+    }
     h2{
         font-size: 1.5rem;
     }
-    
+    nav li a {
+        right: -170px;  
+    }
+}
     h4{
         font-size: 1.3rem;
     }
@@ -395,9 +379,7 @@ nav li:hover a {
     }
     .gallery-06{
         background-image: url(img/gallery-06-sm.jpg);
-    }
-
-   
+    }  
     button{
         width:100%;
     }
@@ -408,7 +390,7 @@ nav li:hover a {
         width:100% !important;
     }
     
-}
+
 
 
 
