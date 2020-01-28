@@ -269,25 +269,6 @@ nav li:hover a {
     border-color: #000;
 }
 /*Media Queries*/
-/* @media screen and (max-height : 690px){
-
-    .header-text{
-        margin-top:20vh;
-    }
-    .down{
-    margin-top: 20vh;
-    }
-}
-
-@media screen and (max-height : 400px){
-
-    .header-text{
-        margin-top:10vh;
-    }
-    .down{
-    margin-top: 10vh;
-    }
-} */
 /* col-lg- */
 @media screen and (max-width:992px){
     nav {
@@ -298,7 +279,7 @@ nav li:hover a {
 @media screen and (max-width:767px){
     
     .sub-title-h2{
-        font-size: 1.8rem !important;
+        font-size: 1.5rem !important;
     }
     p{
         font-size: 1rem;
@@ -338,6 +319,7 @@ nav li:hover a {
     h1{
         font-size: 2rem !important;
     }
+    .header-text{margin-top: 20vh;}
     .font-size-32{
         font-size: 1.8rem;
     }
@@ -347,7 +329,7 @@ nav li:hover a {
     nav li a {
         right: -170px;  
     }
-}
+
     h4{
         font-size: 1.3rem;
     }
@@ -389,7 +371,7 @@ nav li:hover a {
     .w-75{
         width:100% !important;
     }
-    
+} 
 
 
 
